@@ -13,7 +13,7 @@ admins = {}
 
 SESSION_NAME = getenv("SESSION_NAME")
 
-if str(getenv("STRING_SESSION2"BQBJRSwJY7HEFM8goF5sIvLccDLKmlqKNh7j_caAgT-YG38s6fgLlZlaZ32KVYV424k0LH0PMBhWVY-ow4szOiQMhSDcqcu9AsrTQWVOpf62DGkjyUEelMXZzRfVi-sBlUadyVio-LYdv_u2V3IHeHM7F8xjHkIfhxlMVK9j1Bt9yh18L6m0LNiPRdQh6ATp6jUeWqwVgFahFdjjQ73Ibs0dnYgkD6QqqrPWTqzPEBfr-U7nwarBpVz7ZP6vF7oLU-jxAKcVHTbMI3URVeK8BCvs4tbGtNRmn9KMWsh0-2pdSoBHjY0UlmU1PCswWdYo8OQ7_3QL2p5SZNzblyrYVCwhAAAAAVzBZK8A)).strip() == "":
+if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
 else:
     SESSION2 = str(getenv("STRING_SESSION2"))
