@@ -13,7 +13,7 @@ admins = {}
 
 SESSION_NAME = getenv("SESSION_NAME")
 
-if str(getenv("STRING_SESSION2")).strip() == "":
+if str(getenv("STRING_SESSION2"BQBJRSwJY7HEFM8goF5sIvLccDLKmlqKNh7j_caAgT-YG38s6fgLlZlaZ32KVYV424k0LH0PMBhWVY-ow4szOiQMhSDcqcu9AsrTQWVOpf62DGkjyUEelMXZzRfVi-sBlUadyVio-LYdv_u2V3IHeHM7F8xjHkIfhxlMVK9j1Bt9yh18L6m0LNiPRdQh6ATp6jUeWqwVgFahFdjjQ73Ibs0dnYgkD6QqqrPWTqzPEBfr-U7nwarBpVz7ZP6vF7oLU-jxAKcVHTbMI3URVeK8BCvs4tbGtNRmn9KMWsh0-2pdSoBHjY0UlmU1PCswWdYo8OQ7_3QL2p5SZNzblyrYVCwhAAAAAVzBZK8A)).strip() == "":
     SESSION2 = str(None)
 else:
     SESSION2 = str(getenv("STRING_SESSION2"))
@@ -36,20 +36,20 @@ else:
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 BOT_NAME = getenv("BOT_NAME", "Umk")
 
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
+API_ID = int(getenv("API_ID", "24782565"))
+API_HASH = getenv("API_HASH", "cc4dff9c4deb8b1432cb59194124ddcb")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority")
-OWNER_NAME = getenv("OWNER_NAME", "Zaid")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Timesisnotwaiting")
-ALIVE_NAME = getenv("ALIVE_NAME", "Zaid")
-BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
-OWNER_ID = getenv("OWNER_ID", "1669178360")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Zaid2_Assistant")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "TheUpdatesChannel")
+OWNER_NAME = getenv("OWNER_NAME", "harsh")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Harshmahimusic")
+ALIVE_NAME = getenv("ALIVE_NAME", "harsh")
+BOT_USERNAME = getenv("BOT_USERNAME", "harshmahi_musicbot")
+OWNER_ID = getenv("OWNER_ID", "5851145391")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "harsh_Assistant")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "alone_support")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "alone_support")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1669178360").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5851145391").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/fc9d87ffd1c6f828eb7fc.png")
 START_PIC = getenv("START_PIC", "https://telegra.ph/file/a414e2cdfeaa7d4414b89.png")
