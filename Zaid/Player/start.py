@@ -245,12 +245,10 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("✘ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛꜱ", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("✘ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/alone_support"),
+                
             ],
-            [
-                InlineKeyboardButton("✘ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/Itz-Zaid/Zaid-Vc-Player"),
-            ],
+            
             [
                 InlineKeyboardButton("✘ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
             ]
