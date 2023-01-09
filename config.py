@@ -11,7 +11,7 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME"BQAXqFkZwqptzz2pilko4VcujVGhHcpUV9DVAX1JjmnazILkqR5zWMuHwhbSdD6z8nX_8M3femXLR92Y2gCjUVUCHnOda0qZYaNew55iielL2XV8OBj5GPNu1g6kNMARiWLwoqcKTrihN1zd4inh44-3wKhl2mcUQ8RPnLTS16srI9mQx89HjZmMZxzlephEjHy4X32fCW4t7dmrxVMCWPxIYGFplZ-r_zCnSeCxMjYKeSnugQA0LaAAsYlg0bsy2XFmW2Kcc4eFYLp9VWVdZ5P7g5Rfl6F_aGIr4JTlJ4kTTmuZPkOgYg8bJz1kEM_MeNk9TOSw7_lPv7XzEdPQP1IiAAAAAVSs9dAA",)
+SESSION_NAME = getenv("SESSION_NAME", "BQAXqFkZwqptzz2pilko4VcujVGhHcpUV9DVAX1JjmnazILkqR5zWMuHwhbSdD6z8nX_8M3femXLR92Y2gCjUVUCHnOda0qZYaNew55iielL2XV8OBj5GPNu1g6kNMARiWLwoqcKTrihN1zd4inh44-3wKhl2mcUQ8RPnLTS16srI9mQx89HjZmMZxzlephEjHy4X32fCW4t7dmrxVMCWPxIYGFplZ-r_zCnSeCxMjYKeSnugQA0LaAAsYlg0bsy2XFmW2Kcc4eFYLp9VWVdZ5P7g5Rfl6F_aGIr4JTlJ4kTTmuZPkOgYg8bJz1kEM_MeNk9TOSw7_lPv7XzEdPQP1IiAAAAAVSs9dAA")
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
@@ -45,10 +45,10 @@ ALIVE_NAME = getenv("ALIVE_NAME", "harsh")
 BOT_USERNAME = getenv("BOT_USERNAME", "harshmahi_musicbot")
 OWNER_ID = getenv("OWNER_ID", "5851145391")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "harsh_Assistant")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "@alone_support")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "@alone_support")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "alone_support")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "alone_support")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
-HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5851145391").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/fc9d87ffd1c6f828eb7fc.png")
